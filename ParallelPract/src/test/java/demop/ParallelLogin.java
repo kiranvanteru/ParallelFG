@@ -21,6 +21,7 @@ public class ParallelLogin extends BaseClasss {
 	  Thread.sleep(5000);
 	  String fbtitle=driver.getTitle();
 	  System.out.println(fbtitle);
+	  System.out.println("fb test completed");
   }
   
   
@@ -36,5 +37,6 @@ public class ParallelLogin extends BaseClasss {
 	  Thread.sleep(5000);
 	  String gmtitle=driver.getTitle();
 	  System.out.println(gmtitle);
+	  System.out.println("gm test completed");
   }
 }
