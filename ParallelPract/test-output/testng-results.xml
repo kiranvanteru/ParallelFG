@@ -2,35 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41907" started-at="2018-06-10T14:16:48Z" finished-at="2018-06-10T14:17:30Z">
+  <suite name="Suite" duration-ms="61778" started-at="2018-06-10T15:07:08Z" finished-at="2018-06-10T15:08:09Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="27320" started-at="2018-06-10T14:16:48Z" finished-at="2018-06-10T14:17:15Z">
+    <test name="Test1" duration-ms="31838" started-at="2018-06-10T15:07:08Z" finished-at="2018-06-10T15:07:39Z">
       <class name="demop.ParallelLogin">
-        <test-method status="PASS" signature="Startbr(java.lang.String)[pri:0, instance:demop.ParallelLogin@3c0ecd4b]" name="Startbr" is-config="true" duration-ms="5357" started-at="2018-06-10T14:16:48Z" finished-at="2018-06-10T14:16:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Startbr -->
-        <test-method status="PASS" signature="gm()[pri:0, instance:demop.ParallelLogin@3c0ecd4b]" name="gm" duration-ms="21757" started-at="2018-06-10T14:16:53Z" finished-at="2018-06-10T14:17:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gm -->
-        <test-method status="PASS" signature="Clean()[pri:0, instance:demop.ParallelLogin@3c0ecd4b]" name="Clean" is-config="true" duration-ms="178" started-at="2018-06-10T14:17:15Z" finished-at="2018-06-10T14:17:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Clean -->
-      </class> <!-- demop.ParallelLogin -->
-    </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="41907" started-at="2018-06-10T14:16:48Z" finished-at="2018-06-10T14:17:30Z">
-      <class name="demop.ParallelLogin">
-        <test-method status="PASS" signature="Startbr(java.lang.String)[pri:0, instance:demop.ParallelLogin@1e88b3c]" name="Startbr" is-config="true" duration-ms="12139" started-at="2018-06-10T14:16:48Z" finished-at="2018-06-10T14:17:00Z">
+        <test-method status="PASS" signature="Startbr(java.lang.String)[pri:0, instance:demop.ParallelLogin@1e88b3c]" name="Startbr" is-config="true" duration-ms="5805" started-at="2018-06-10T15:07:08Z" finished-at="2018-06-10T15:07:13Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startbr -->
-        <test-method status="PASS" signature="fb()[pri:0, instance:demop.ParallelLogin@1e88b3c]" name="fb" duration-ms="26591" started-at="2018-06-10T14:17:00Z" finished-at="2018-06-10T14:17:26Z">
+        <test-method status="PASS" signature="fb()[pri:0, instance:demop.ParallelLogin@1e88b3c]" name="fb" duration-ms="22805" started-at="2018-06-10T15:07:13Z" finished-at="2018-06-10T15:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fb -->
-        <test-method status="PASS" signature="Clean()[pri:0, instance:demop.ParallelLogin@1e88b3c]" name="Clean" is-config="true" duration-ms="3170" started-at="2018-06-10T14:17:26Z" finished-at="2018-06-10T14:17:30Z">
+        <test-method status="PASS" signature="Clean()[pri:0, instance:demop.ParallelLogin@1e88b3c]" name="Clean" is-config="true" duration-ms="3207" started-at="2018-06-10T15:07:36Z" finished-at="2018-06-10T15:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clean -->
       </class> <!-- demop.ParallelLogin -->
     </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="29890" started-at="2018-06-10T15:07:39Z" finished-at="2018-06-10T15:08:09Z">
+      <class name="demop.ParallelLogin">
+        <test-method status="PASS" signature="Startbr(java.lang.String)[pri:0, instance:demop.ParallelLogin@3c0ecd4b]" name="Startbr" is-config="true" duration-ms="4935" started-at="2018-06-10T15:07:39Z" finished-at="2018-06-10T15:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startbr -->
+        <test-method status="PASS" signature="gm()[pri:0, instance:demop.ParallelLogin@3c0ecd4b]" name="gm" duration-ms="22138" started-at="2018-06-10T15:07:44Z" finished-at="2018-06-10T15:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gm -->
+        <test-method status="PASS" signature="Clean()[pri:0, instance:demop.ParallelLogin@3c0ecd4b]" name="Clean" is-config="true" duration-ms="2813" started-at="2018-06-10T15:08:07Z" finished-at="2018-06-10T15:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clean -->
+      </class> <!-- demop.ParallelLogin -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
